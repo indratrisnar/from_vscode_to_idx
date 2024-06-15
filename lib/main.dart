@@ -11,8 +11,13 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(
-          child: Text('From VsCode to IDX'),
+        body: Column(
+          children: [
+            Center(
+              child: Text('From VsCode to IDX'),
+            ),
+            Text('New Text')
+          ],
         ),
       ),
     );
